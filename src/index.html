@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<script defer src="index.js"></script>
+</head>
+<body>
+  
+    <main id="form">
+        <div id="heading">
+            <h1>Resume Website Generator 📄</h1>
+            <p>Fill the form below to generate your resume ⬇</p>
+        </div>
+       
+        <div id="create-resume">
+
+            <form id="resume-form">
+
+                <label for="name-form">Name:</label>
+                <input type="text" id="name-form" name="name-form" required>
+
+                <label for="main-skill">Main Skill:</label>
+                <input type="main-skill" id="main-skill" name="main-skill" required>
+        
+                <label for="contact">Email:</label>
+                <input type="contact" id="contact" name="contact" required>
+
+                <label for="edu">Education:</label>
+                <textarea id="edu" name="edu" required></textarea>
+
+                <label for="skills">Skills:</label>
+                <input type="skills" id="skills" name="skills" required>
+
+                <label for="work-xp">Work Experience:</label>
+                <textarea id="work-xp" name="work-xp" required></textarea>
+
+                <label for="abt">About:</label>
+                <textarea id="abt" name="abt" required></textarea>
+             
+         
+        
+                <button type="submit" id="submit">Generate Resume</button>
+
+                
+            </form>
+        </div>
+        <div id="resume">
+            <div id="personal-info"><h1 id="name">Name</h1> <h2 id="main">Main Skill</h2></div>
+            <div><h1>Education</h1> <h3 id="education">React, JS</h3></div>
+            <div><h1>Skills</h1> <p id="skill-list">React, JS</p></div>
+            <div><h1>Work Experience</h1> <h3 id="work">Microsoft</h3></div>
+            <div><h1>About me</h1> <p id="about">sadusuidsuiduidisa</p></div>
+         
+            <div><h1>Contact</h1> <p id="email">✉</p></div>
+            
+
+        </div>
+    </main>
+
+
+
+
+</body>
+</html>
